@@ -14,14 +14,17 @@ const topNews = document.querySelector('#topNews');
         }
       })
     .then(response => response.json())
-    .then(data => {
+    .then(data => topSection(data))
+
+    function topSection(data){
       const i = random();
   console.log(data.articles[i]) 
 topLink.href = data.articles[i].url;
 topImg.src = data.articles[i].urlToImage;
+topImg.alt = data.articles[i].title;
 topNews.textContent = data.articles[i].title;
- 
+    }
 
-    })
-
-
+function source(){
+  
+}
