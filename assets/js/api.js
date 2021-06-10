@@ -24,7 +24,11 @@ topImg.src = data.articles[i].urlToImage;
 topImg.alt = data.articles[i].title;
 topNews.textContent = data.articles[i].title;
     }
-
-function source(){
-  
+//source function
+function source(data){
+  console.log(data)
 }
+//source api
+fetch('https://immense-bastion-02108.herokuapp.com/api/source')
+.then(res=> res.json())
+.then(data=> source(data));
