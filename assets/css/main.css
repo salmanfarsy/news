@@ -23,7 +23,7 @@ header{
     border-bottom: 1px solid rgb(207, 207, 207);
     box-shadow: 0px 0px 1px 2px gray;
     height: 100%;
-    margin-bottom:10px ;
+    margin-bottom:3px ;
 }
 header p{
     color: gray;
@@ -134,4 +134,16 @@ aside{
 }
 .source p{
     align-self: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+}
+.net ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background: var(--red);
+    padding: 10px;
+    margin-bottom: 5px;
 }
