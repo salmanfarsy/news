@@ -6,7 +6,7 @@
     --blue:#118Df0;
     --dark-blue:#0E2F56;
     --red:#FF304F;
-    --cream:#ECECDA;
+    --cream:hsl(202, 84%, 95%);
     font-family: sans-serif;
   
 
@@ -144,6 +144,19 @@ aside{
     list-style: none;
     justify-content: space-between;
     background: var(--red);
-    padding: 10px;
+    padding: 10px 30px;
     margin-bottom: 5px;
+}
+.net a{
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: all 0.2s;
+
+}
+.net a:hover{
+   color: skyblue;
+    border-bottom: 1px solid salmon;
+
 }
