@@ -11,7 +11,7 @@ const asideImg= document.querySelectorAll('.source img');
 const asideTitle = document.querySelectorAll('.source p');
 const sourceLInk = document.querySelectorAll('.net a');
 
-//news headlines 
+//news headlines  api
    fetch('https://immense-bastion-02108.herokuapp.com/api/news' ,{
         mode: 'cors',
         headers: {
@@ -20,6 +20,15 @@ const sourceLInk = document.querySelectorAll('.net a');
       })
     .then(response => response.json())
     .then(data => topSection(data))
+
+
+
+    //source api
+fetch('https://immense-bastion-02108.herokuapp.com/api/source')
+.then(res=> res.json())
+.then(data=> source(data));
+
+
 //headline function
     function topSection(data){
       const i = random();
@@ -44,9 +53,4 @@ function source(data){
 sourceLInk[i].textContent = data.sources[j].name;
 sourceLInk[i].href = data.sources[j].url;
   }
-  console.log(data.sources[0].url);
 }
-//source api
-fetch('https://immense-bastion-02108.herokuapp.com/api/source')
-.then(res=> res.json())
-.then(data=> source(data));
