@@ -10,6 +10,9 @@ const asideLink = document.querySelectorAll('.source a');
 const asideImg= document.querySelectorAll('.source img');
 const asideTitle = document.querySelectorAll('.source p');
 const sourceLInk = document.querySelectorAll('.net a');
+const newsLink = document.querySelectorAll('#news a');
+const newsImg = document.querySelectorAll('#news img');
+const newsTitle = document.querySelectorAll('#news h2');
 
 //news headlines  api
    fetch('https://immense-bastion-02108.herokuapp.com/api/news' ,{
@@ -31,6 +34,7 @@ fetch('https://immense-bastion-02108.herokuapp.com/api/source')
 
 //headline function
     function topSection(data){
+      //top section 
       const i = random();
       const j = random();
   console.log(data.articles[i]) 
@@ -41,6 +45,13 @@ topNews.textContent = data.articles[i].title;
 asideLink[0].href =  data.articles[j].url;
 asideImg[0].src =  data.articles[j].urlToImage;
 asideTitle[0].textContent = data.articles[j].title;
+//main section
+for(let k=0; k<=5; k++){
+const r = random();
+newsLink[k].href = data.articles[r].url;
+newsImg[k].src = data.articles[r].urlToImage;
+newsTitle[k].textContent = data.articles[r].title;
+}
 
 
 
