@@ -161,7 +161,7 @@ aside{
 
 }
 main h1{
-    background-color: orange;
+    background-color: hsl(22, 70%, 60%);
     padding: 10px;
     font-size: 2rem;
 }
@@ -182,4 +182,12 @@ main figure{
 svg{
     width:4vw;
     height: auto;
+}
+footer{
+    background-color: black;
+    color: gray;
+    padding: 20px 0;
+}
+footer p{
+    margin: 10px 0;
 }
