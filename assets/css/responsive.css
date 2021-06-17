@@ -1,0 +1,27 @@
+@media all and (max-width:1300px) {
+ html, body{
+     font-size: 12px;
+ }   
+}
+
+@media all and (max-width:1000px) {
+    figure{
+        width: 60vw;
+    }
+    main figure{
+        width: 35vw;
+    }   
+   }
+
+   @media all and (max-width:700px) {
+   
+    main figure{
+        width: 60%;
+    }   
+   }
+   @media all and (max-width:400px) {
+   
+    main figure{
+        width: 90%;
+    }   
+   }
