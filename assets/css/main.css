@@ -179,7 +179,7 @@ main figure{
     height: 100%;
     margin: 10px 0;
 }
-svg{
+.top-icon{
     width:4vw;
     height: auto;
 }
@@ -190,4 +190,8 @@ footer{
 }
 footer p{
     margin: 10px 0;
+}
+.menu{
+    width: 5%;
+    height: auto;
 }
