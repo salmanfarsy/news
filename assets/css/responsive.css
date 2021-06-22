@@ -10,7 +10,18 @@
     }
     main figure{
         width: 35vw;
-    }   
+    } 
+    nav{
+        display: none;
+    }  
+    .menu{
+        display: block;
+        width: 8vw;
+        margin: 5px 0;
+    }
+    header{
+        align-items: center;
+    }
    }
 
    @media all and (max-width:700px) {

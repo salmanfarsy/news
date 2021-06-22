@@ -192,6 +192,7 @@ footer p{
     margin: 10px 0;
 }
 .menu{
+    display: none;
     width: 5%;
     height: auto;
 }
