@@ -33,6 +33,7 @@
         width: 60%;
     }   
    }
+   /* mobile */
    @media all and (max-width:400px) {
    
     main figure{
