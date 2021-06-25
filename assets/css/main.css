@@ -49,7 +49,7 @@ header h1{
     color: var(--dark-blue);
    
 }
-header a{
+header nav a{
     text-decoration: none;
     color: var(--blue);
     font-size: 1.2rem;
@@ -195,4 +195,16 @@ footer p{
     display: none;
     width: 5%;
     height: auto;
+}
+/* sticky nav */
+.sticky{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: auto;
+    background: var(--cream);
+}
+/* title name */
+.home{
+    text-decoration: none;
 }
