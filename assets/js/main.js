@@ -15,4 +15,10 @@ if(pageYOffset>nav.clientHeight){
 //menu active state
 const iNews = document.querySelector('#news');
 
-console.log(iNews.offsetTop)
+//toggle nav menu
+const navMenu = document.querySelector('nav');
+const navBtn = document.querySelector('.menu');
+console.log(navBtn)
+navBtn.addEventListener('click', ()=>{
+    navMenu.classList.toggle('on');
+})

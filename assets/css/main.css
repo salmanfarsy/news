@@ -195,6 +195,13 @@ footer p{
     display: none;
     width: 5%;
     height: auto;
+    transition: all 0.5s;
+}
+.menu:hover{
+    cursor: pointer;
+}
+.menu:active{
+    fill:white;
 }
 /* sticky nav */
 .sticky{

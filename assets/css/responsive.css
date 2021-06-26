@@ -1,3 +1,6 @@
+.on{
+    display: block;
+}
 /* desktop */
 @media all and (max-width:1300px) {
  html, body{
@@ -22,6 +25,36 @@
     }
     header{
         align-items: center;
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px 20px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    box-shadow: 0px 0px 1px 2px grey;
+    height: 100%;
+    margin-bottom: 3px;
+    }
+    nav{
+        display: none;
+        order: 1;
+        width: 100%;
+    }
+    header ul{
+        flex-direction: column;
+    }
+    header ul li:first-child{
+        border-left: none;
+    }
+    header ul li{
+        border-right: none;
+        padding-top: 0;
+        margin: 10px 0;
+    }
+    header nav a{
+        padding-top: 0;
+        font-size: 2rem;
+       
     }
    }
 
