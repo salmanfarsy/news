@@ -115,6 +115,16 @@ aside{
 .source li{
     margin: 5px 0;
 }
+.source li:hover{
+    transform: scale(1.3);
+    width: 20vw;
+    background-color: var(--dark-blue);
+    padding: 10px;
+}
+.source li:hover p{
+  overflow: visible;
+  white-space: pre-line;
+}
 .source a{
     text-decoration: none;
     color: var(--red);
