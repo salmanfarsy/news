@@ -56,6 +56,31 @@
         font-size: 2rem;
        
     }
+    .top{
+        flex-wrap: wrap;
+    }
+    figure{
+        width: 100%;
+    }
+    aside{
+        margin: 10px 0;
+        width: 100%;
+    }
+    aside ul{
+        display: flex;
+    }
+    .source li{
+        width: 100%;
+    }
+    .source a{
+        flex-wrap: wrap;
+    }
+    .source img{
+        width: 100%;
+    }
+    .source p{
+        white-space: normal;
+    }
    }
 
    @media all and (max-width:700px) {
