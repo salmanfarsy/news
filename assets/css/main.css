@@ -237,3 +237,18 @@ footer p{
 .dark footer{
     --fill:hsl(0, 0%, 5%);
 }
+.off{
+    display: none;
+}
+button{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px 15px;
+    font-size: 1.1rem;
+}
+button:hover{
+    cursor: pointer;
+}
