@@ -8,6 +8,7 @@
     --red:#FF304F;
     --cream:hsl(202, 84%, 95%);
     font-family: sans-serif;
+    --fill:black;
   
 
 }
@@ -194,7 +195,7 @@ main figure{
     height: auto;
 }
 footer{
-    background-color: black;
+    background-color: var(--fill);
     color: gray;
     padding: 20px 0;
 }
@@ -206,6 +207,7 @@ footer p{
     width: 5%;
     height: auto;
     transition: all 0.5s;
+    fill: var(--fill);
 }
 .menu:hover{
     cursor: pointer;
@@ -224,4 +226,14 @@ footer p{
 /* title name */
 .home{
     text-decoration: none;
+}
+.dark *{
+    --fill:white;
+    --cream:black;
+}
+.dark{
+    --cream:black;
+}
+.dark footer{
+    --fill:hsl(0, 0%, 5%);
 }
