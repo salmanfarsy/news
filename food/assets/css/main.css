@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	    display: flex;
+    background: black;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+}
+nav ul li a{
+	    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.banner{
+	    display: flex;
+    align-items: center;
+}
+.cover{
+	padding: 10em;
+}
+.cover h1{
+	font-size: 3rem;
+	color: slategrey;
+}
+.cover h1 span{
+	color: orange;
+}
+.cover p{
+	    color: rgb(127 118 118 / 90%);
+    padding-top: 15px;
+        font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+img{
+	width: 100%;
+}
+.middle{
+	background: url(../../assets/image/back.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	    padding: 0 15em;
+    justify-content: space-between;
+}
+.middle .img{
+width: 30%;
+}
+.middle img{
+	    width: 50%;
+    /* height: 100%; */
+    padding-top: 5em;
+}
+.middle .text{
+	width: 40%;
+}
+.middle .text p{
+	    line-height: 1.5em;
+    margin: 20px 0;
+     color: rgb(127 118 118 / 90%);
+}
+.middle h1{
+	    font-size: 2rem;
+    color: dimgray;
+}
+button{
+	padding: 10px 20px;
+	    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to left, red, orange);
+    color: wheat;
+    display: block;
+    margin: 20px 0;
+}
+.top-text{
+	    text-align: center;
+    padding: 40px 0px;
+}
+.top-text h2{
+	    color: dimgray;
+    margin: 20px 0;
+    font-size: 2.2rem;
+}
+.top-text p{
+	width: 50%;
+    margin: 25px auto;
+}
+.cardlist{
+	padding: 0 2em;
+	display: flex;
+	justify-content: space-around;
+}
+figure{
+	width: 25%;
+    box-shadow: 0 0 5px 2px rgb(0 0 0 / 20%);
+    padding: 15px;
+    border-radius: 10px;
+}
+h3{
+	font-weight: 900;
+	    margin: 10px 0;
+}
+.stats{
+	display: flex;
+	justify-content: space-between;
+	    width: 90%;
+    margin: 10em auto;
+    box-shadow: 0 0 5px 2px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    padding: 3em;
+}
+.stats h2{
+	font-size: 2.2rem;
+	margin: 10px auto;
+}
+footer{
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 3em;
+	padding-bottom: 5em;
+}
+footer h1{
+	color: dimgray;
+	text-transform: uppercase;
+	margin: 1em auto;
+
+}
+footer span{
+  background: -webkit-linear-gradient(right, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
