@@ -1,0 +1,121 @@
+*{
+	--top-clr:#2d25a0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	background: rgb(240, 240, 240);
+}
+header{
+	background: var(--top-clr);
+		color: white;
+		padding: 2% 9%;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 2%;
+	margin: 10px 0;
+}
+nav ul{
+	display: flex;
+	list-style: none;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 0 10px;
+
+}
+.cover{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 2% 5%;
+}
+.cover img{
+	width:400px;
+}
+ button{
+	padding: 10px 20px;
+	background: hotpink;
+	border: none;
+	color: white;
+}
+.text{
+	padding: 0 10%;
+}
+.text h1{
+	  /*padding-right: 40%;*/
+    font-size: 3.5rem;
+}
+main{
+	width: 70%;
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+main img{
+	width: 100%;
+}
+article{
+	padding: 1%;
+	width: 25%;
+	background: white;
+	margin: 10px;
+	box-shadow: 0 0 5px 3px grey;
+}
+article h1{
+	    padding: 10px 0;
+}
+article p{
+	padding: 15px 0;
+}
+section{
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	margin:50px auto;
+	align-items: center;
+}
+section img{
+	width: 450px;
+
+}
+.bottom-text{
+	    padding: 0 5%;
+}
+section h2{
+	    font-size: 3rem;
+    color: #0c0a2f;
+}
+section p{
+	    color: dimgray;
+    margin: 20px 0;
+}
+footer{
+	text-align: center;
+	padding: 5% 0;
+}
+footer img{
+	width: 300px;
+}
+footer ul{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 2% 0;
+}
+footer ul li a{
+	margin: 0 10px;
+	padding: 5px;
+	color: grey;
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+}
+.icon{
+	display: none;
+}
